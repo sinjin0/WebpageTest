@@ -4,7 +4,8 @@
 	<title>Kakao 지도 시작하기</title>
 </head>
 <body>
-	<div id="map" style="width:1000;height:800px;"></div>
+	<div id="map" style="width:1000;height:800px;"></div>	
+	<p>	<button onclick="setCenter()">지도 중심좌표 이동시키기</button>	</p>
 	
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7f0ea57fbca0a4cadfffa7ea104b25cf"></script>
 	<script>
@@ -16,7 +17,7 @@
 
 		var map = new kakao.maps.Map(container, options);
 		
-	 setCenter() {
+	 function setCenter() {
 		 var moveLatLon = new new kakao.maps.LatLng(33.452613, 126.570888);
 		 map.setCenter(moveLatLon);
 	 }
