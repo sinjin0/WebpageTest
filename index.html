@@ -4,7 +4,7 @@
 	<title>Kakao 지도 시작하기</title>
 </head>
 <body>
-	<div id="map" style="width:600;height:400px;"></div>		
+		
 	<ul>
      		<li>위도:<span id="latitude"></span></li>
       		<li>경도:<span id="longitude"></span></li>
@@ -13,13 +13,6 @@
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7f0ea57fbca0a4cadfffa7ea104b25cf"></script>
 	<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
 	<script>
-		var container = document.getElementById('map');
-		var options = {
-			center: new kakao.maps.LatLng(36.393250, 127.405276),
-			level: 3
-		};
-
-		var map = new kakao.maps.Map(container, options);
 		
 		var start = FindLocation();
 	  function FindLocation() {
@@ -31,8 +24,7 @@
  	}	
 		
 	 function setCenter(position) {
-		 var moveLatLon = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
-		 map.setCenter(moveLatLon);
+		
 		 document.getElementById("latitude").innerHTML = position.coords.latitude;
     		 document.getElementById("longitude").innerHTML = position.coords.longitude;
 	 }
