@@ -4,8 +4,11 @@
 	<title>Kakao 지도 시작하기</title>
 </head>
 <body>
-	<div id="map" style="width:1000;height:800px;"></div>	
-
+	<div id="map" style="width:1000;height:800px;"></div>		
+	<ul>
+     		<li>위도:<span id="latitude"></span></li>
+      		<li>경도:<span id="longitude"></span></li>
+  	</ul>
 	
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7f0ea57fbca0a4cadfffa7ea104b25cf"></script>
 	<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
@@ -19,17 +22,19 @@
 		var map = new kakao.maps.Map(container, options);
 		
 		var start = FindLocation();
-	 function FindLocation() {
-       if( navigator.geolocation) {
-           navigator.geolocation.watchPosition(setCenter);
-       } else {
-           loc.innerHTML = "이 문장은 사용자의 웹 브라우저가 Geolocation API를 지원하지 않을 때 나타납니다!";
-       }
-   }	
+	  function FindLocation() {
+      		 if( navigator.geolocation) {
+       		    navigator.geolocation.watchPosition(setCenter);
+      		 } else {
+         		  loc.innerHTML = "이 문장은 사용자의 웹 브라우저가 Geolocation API를 지원하지 않을 때 나타납니다!";
+     	 	}
+ 	}	
 		
 	 function setCenter(position) {
 		 var moveLatLon = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
 		 map.setCenter(moveLatLon);
+		 document.getElementById("latitude").innerHTML = position.coords.latitude;
+    		 document.getElementById("longitude").innerHTML = position.coords.longitude;
 	 }
 	</script>
 	
