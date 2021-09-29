@@ -64,10 +64,12 @@
 		maximumAge: 0
 	};
 		
-	function centerButtonClick() {
-		
+	function error(err) {
+ 		console.warn('ERROR(' + err.code + '): ' + err.message);
+	}
+	function centerButtonClick() {		
 		if( navigator.geolocation) {
-       			navigator.geolocation.getCurrentPosition(setCenter,option);
+       			navigator.geolocation.getCurrentPosition(setCenter,error,option);
       		} else {
          		  
      	 	}
