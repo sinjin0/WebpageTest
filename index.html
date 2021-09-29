@@ -58,12 +58,14 @@
 		centerMarker.setMap(map);
 	}
 		
+	var option = {
+		enableHighAccuracy: true,
+		timeout: 5000,
+		maximumAge: 0
+	};
+		
 	function centerButtonClick() {
-		var option = {
-			enableHighAccuracy: true,
-			timeout: 5000,
-			maximumAge: 0
-		};
+		
 		if( navigator.geolocation) {
        			navigator.geolocation.getCurrentPosition(setCenter,option);
       		} else {
