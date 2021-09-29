@@ -37,7 +37,10 @@
 		};
 
 		var map = new kakao.maps.Map(container, options);
-		var centerMarker;
+		var centerMarker = new kakao.maps.Marker({
+			map: map,
+			position: new kakao.map.LatLng(36.393250, 127.405276)		
+		});
 		
 		var start = FindLocation();
 		
@@ -52,10 +55,7 @@
 	function markingCurPosition(position) {
 		var locPosition = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
 		
-		centerMarker = new kakao.maps.Marker({
-			position: locPosition
-		});
-		centerMarker.setMap(map);
+		
 	}
 		
 	var option = {
