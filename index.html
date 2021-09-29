@@ -52,7 +52,7 @@
 		
 	function markingCurPosition(position) {
 		var locPosition = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
-		centerMarker.setMap(null);
+		
 		centerMarker = new kakao.maps.Marker({
 			position: locPosition
 		});
