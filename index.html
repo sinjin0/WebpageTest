@@ -59,13 +59,13 @@
 	}
 		
 	function centerButtonClick() {
-		var options = {
+		var option = {
 			enableHighAccuracy: true,
 			timeout: 5000,
 			maximumAge: 0
 		};
 		if( navigator.geolocation) {
-       			navigator.geolocation.getCurrentPosition(setCenter,options);
+       			navigator.geolocation.getCurrentPosition(setCenter,option);
       		} else {
          		  
      	 	}
