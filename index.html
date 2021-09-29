@@ -43,6 +43,7 @@
 		});
 		marker.setMap(map);
 		
+		var start = FindLocation();		
 		
 	function FindLocation() {
       		if( navigator.geolocation) {
@@ -53,9 +54,8 @@
  	}
 		
 	function markingCurPosition(position) {
-		var locPosition = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
-		
-		
+		var locPosition = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);		
+		marker.setPosition(locPosition);		
 	}
 		
 	var option = {
