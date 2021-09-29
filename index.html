@@ -39,6 +39,8 @@
 		};
 
 		var map = new kakao.maps.Map(container, options);
+		var centerMarker;
+		var govMarkers = [];
 		
 		var start = FindLocation();
 	function FindLocation() {
@@ -51,10 +53,11 @@
 		
 	function markingCurPosition(position) {
 		var locPosition = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
-		var marker = new kakao.maps.Marker({
+		centerMarker.setMap(null);
+		centerMarker = new kakao.maps.Marker({
 			position: locPosition
 		});
-		marker.setMap(map);
+		centerMarker.setMap(map);
 	}
 		
 	function centerButtonClick() {
