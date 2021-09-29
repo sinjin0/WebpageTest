@@ -51,9 +51,9 @@
 		
 	function markingCurPosition(locPosition) {
 		var marker = new kakao.maps.Marker({
-			map : map,
 			position: locPosition
 		});
+		marker.setMap(map);
 	}
 		
 	function centerButtonClick() {
