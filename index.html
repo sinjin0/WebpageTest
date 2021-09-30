@@ -70,11 +70,7 @@
 		
 	
 	function centerButtonClick() {		
-		if( navigator.geolocation) {
-       			navigator.geolocation.getCurrentPosition(setCenter,error,geoOptions);
-      		} else {
-         		  
-     	 	}
+		amp.setCenter(marker.getPosition());
 	}
 		
 	function setCenter(position) {
