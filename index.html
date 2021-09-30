@@ -45,9 +45,19 @@
 		
 		var start = FindLocation();		
 		
+	var geoOptions = {
+		enableHighAccuracy: true,
+		timeout: 5000,
+		maximumAge: 1000
+	};
+		
+	function error(err) {
+ 		console.warn('ERROR(' + err.code + '): ' + err.message);
+	}
+		
 	function FindLocation() {
       		if( navigator.geolocation) {
-       			navigator.geolocation.watchPosition(markingCurPosition);
+       			navigator.geolocation.watchPosition(markingCurPosition,error,geoOptions);
       		} else {
          		 
      	 	}
@@ -58,18 +68,10 @@
 		marker.setPosition(locPosition);		
 	}
 		
-	var option = {
-		enableHighAccuracy: true,
-		timeout: 5000,
-		maximumAge: 0
-	};
-		
-	function error(err) {
- 		console.warn('ERROR(' + err.code + '): ' + err.message);
-	}
+	
 	function centerButtonClick() {		
 		if( navigator.geolocation) {
-       			navigator.geolocation.getCurrentPosition(setCenter,error,option);
+       			navigator.geolocation.getCurrentPosition(setCenter,error,geoOptions);
       		} else {
          		  
      	 	}
