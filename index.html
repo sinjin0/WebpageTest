@@ -94,11 +94,17 @@
 			}
 		];
 		
+		var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
+		
 		for( var i = 0 ; i < govPosition.length ; i++ ) {
+			var imageSize = new kakao.maps.Size(24,35);
+			var markerImage = new kakao.maps.MarkseImage(imageSrc,imageSize);
+			
 			var govMarker = new kakao.maps.Marker({
 				map: map,
 				position: govPosition[i].latlng,
-				title: govPosition[i].title			
+				title: govPosition[i].title,
+				image: markerImage
 			});
 		}
 		
@@ -131,6 +137,7 @@
 	
 	function centerButtonClick() {		
 		map.setCenter(marker.getPosition());
+		map.setLevel(3);
 	}
 		
 	function setCenter(position) {
