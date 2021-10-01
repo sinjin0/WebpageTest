@@ -43,7 +43,7 @@
 		});
 		marker.setMap(map);
 		
-		var govPosition = {
+		var govPosition = [
 			{
 				title: '목상다사랑정압기'
 				latlng: new kakao.maps.LatLng(36.44675,127.4137)
@@ -92,7 +92,7 @@
 				title: '용산우림정압기'
 				latlng: new kakao.maps.LatLng(36.41769,127.3933)
 			},	
-		}
+		];
 		
 		for( var i = 0 ; i < govPosition.length ; i++ ) {
 			var govMarker = new kakao.maps.Marker({
