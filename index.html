@@ -150,11 +150,11 @@
 		
 	var centerTrackingFunc;
 	function startTrackingCenter() {
-		centerTrackingFunc = setInverval(setCenter,5000);
+		centerTrackingFunc = setInterval(setCenter,5000);
 	}
 	
 	function stopTrackingCenter() {
-		clearInverval(centerTrackingFunc);
+		clearInterval(centerTrackingFunc);
 	}
 		
 	function setCenter() {
