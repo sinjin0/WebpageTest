@@ -112,71 +112,78 @@
 		
 		var start = FindLocation();		
 		
-	var geoOptions = {
-		enableHighAccuracy: true,
-		timeout: 5000,
-		maximumAge: 1000
-	};
+		var geoOptions = {
+			enableHighAccuracy: true,
+			timeout: 5000,
+			maximumAge: 1000
+		};
 		
-	function error(err) {
- 		console.warn('ERROR(' + err.code + '): ' + err.message);
-	}
+		kakao.maps.event.addListener(map, 'dragend', function() {
+			if( control.className.indexOf('active') !== -1 ) {
+				control.className = '';
+				stopTrackingCenter();
+			}			
+		});
 		
-	function FindLocation() {
-      		if( navigator.geolocation) {
-       			navigator.geolocation.watchPosition(markingCurPosition,error,geoOptions);
-      		} else {
+		function error(err) {
+ 			console.warn('ERROR(' + err.code + '): ' + err.message);
+		}
+		
+		function FindLocation() {
+      			if( navigator.geolocation) {
+       				navigator.geolocation.watchPosition(markingCurPosition,error,geoOptions);
+      			} else {
          		 
-     	 	}
- 	}
+     	 		}
+ 		}
 		
-	function markingCurPosition(position) {
-		var locPosition = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);		
-		marker.setPosition(locPosition);		
-	}
+		function markingCurPosition(position) {
+			var locPosition = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);		
+			marker.setPosition(locPosition);		
+		}
 		
 	
-	function centerButtonClick() {		
-		var control = document.getElementById('roadviewControl');
+		function centerButtonClick() {		
+			var control = document.getElementById('roadviewControl');
 		
-		if( control.className.indexOf('active') === -1 ) {
-			control.className = 'active';
-			startTrackingCenter();
-		} else {
-			control.className = '';
-			stopTrackingCenter();
+			if( control.className.indexOf('active') === -1 ) {
+				control.className = 'active';
+				startTrackingCenter();
+			} else {
+				control.className = '';
+				stopTrackingCenter();
+			}
 		}
-	}
-		
-	var centerTrackingFunc;
-	function startTrackingCenter() {
-		centerTrackingFunc = setInterval(setCenter,5000);
-	}
+
+		var centerTrackingFunc;
+		function startTrackingCenter() {
+			centerTrackingFunc = setInterval(setCenter,5000);
+		}
 	
-	function stopTrackingCenter() {
-		clearInterval(centerTrackingFunc);
-	}
-		
-	function setCenter() {
-		map.setCenter(marker.getPosition());
-		map.setLevel(3);
-	}
-		
-	function setMapType(maptype) {
-		var roadmapControl = document.getElementById('btnRoadmap');
-		var skyviewControl = document.getElementById('btnSkyview');
-		
-		if(maptype == 'roadmap') {
-			map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
-			roadmapControl.className = 'selected_btn';
-			skyviewControl.className = 'btn';
-		} else {
-			map.setMapTypeId(kakao.maps.MapTypeId.HYBRID);
-			skyviewControl.className = 'selected_btn';
-			roadmapControl.className = 'btn';
+		function stopTrackingCenter() {
+			clearInterval(centerTrackingFunc);
 		}
-	}	
 		
+		function setCenter() {
+			map.setCenter(marker.getPosition());
+			map.setLevel(3);
+		}
+		
+		function setMapType(maptype) {
+			var roadmapControl = document.getElementById('btnRoadmap');
+			var skyviewControl = document.getElementById('btnSkyview');
+
+			if(maptype == 'roadmap') {
+				map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
+				roadmapControl.className = 'selected_btn';
+				skyviewControl.className = 'btn';
+			} else {
+				map.setMapTypeId(kakao.maps.MapTypeId.HYBRID);
+				skyviewControl.className = 'selected_btn';
+				roadmapControl.className = 'btn';
+			}
+		}	
+
 	</script>
 	
 </body>
