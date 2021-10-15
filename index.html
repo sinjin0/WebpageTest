@@ -24,7 +24,6 @@
      			<span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
        			<span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
   		</div>
-		<div id="map" style="width:100%;height:100%"></div>
       		<div id="roadviewControl" onclick="centerButtonClick()"></div>		
 	</div>
 	
@@ -138,13 +137,29 @@
 		
 	
 	function centerButtonClick() {		
-		map.setCenter(marker.getPosition());
-		map.setLevel(3);
+		var control = document.getElementById('roadviewControl');
+		
+		if( control.className.indexOf('active') === -1 ) {
+			control.className = 'active';
+			startTrackingCenter();
+		} else {
+			control.className = '';
+			stopTrackingCenter();
+		}
+	}
+		
+	var centerTrackingFunc;
+	function startTrackingCenter() {
+		centerTrackingFunc = setInverval(setCenter,5000);
+	}
+	
+	function stopTrackingCenter() {
+		clearInverval(centerTrackingFunc);
 	}
 		
 	function setCenter(position) {
-		var moveLatLon = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
-		map.setCenter(moveLatLon);
+		map.setCenter(marker.getPosition());
+		map.setLevel(3);
 	}
 		
 	function setMapType(maptype) {
@@ -160,9 +175,7 @@
 			skyviewControl.className = 'selected_btn';
 			roadmapControl.className = 'btn';
 		}
-	
-	}
-		
+	}	
 		
 	</script>
 	
