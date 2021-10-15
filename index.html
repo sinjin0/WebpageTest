@@ -119,6 +119,7 @@
 		};
 		
 		kakao.maps.event.addListener(map, 'dragend', function() {
+			var control = document.getElementById('roadviewControl');
 			if( control.className.indexOf('active') !== -1 ) {
 				control.className = '';
 				stopTrackingCenter();
