@@ -107,7 +107,19 @@
 				title: govPosition[i].title,
 				image: markerImage
 			});
+			
+			var iwContent = govPosition[i].title,
+			    iwPosition = govPosition[i].latlng;
+			
+			var infowindow = new kakao.maps.infoWindow({
+				position : iwPosition,
+				content : iwContent
+			});
+			
+			infowindow.open(map,marker);
 		}
+		
+		
 		
 		
 		var start = FindLocation();		
