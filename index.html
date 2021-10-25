@@ -104,16 +104,12 @@
 			var govMarker = new kakao.maps.Marker({
 				map: map,
 				position: govPosition[i].latlng,
-				title: govPosition[i].title,
 				image: markerImage
 			});
 			
-			var iwContent = govPosition[i].title,
-			    iwPosition = govPosition[i].latlng;
-			
-			var infowindow = new kakao.maps.infoWindow({
-				position : iwPosition,
-				content : iwContent
+			var infowindow = new kakao.maps.InfoWindow({
+				position : govPosition[i].latlng,
+				content : govPosition[i].title
 			});
 			
 			infowindow.open(map,govMarker);
