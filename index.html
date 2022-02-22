@@ -23,7 +23,7 @@
 		<div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div> 
 		<div class="custom_typecontrol radius_border">
 			<span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap'); unity:mapbtn" >지도</span>
-			<span id="btnSkyview" class="btn" onclick="setMapType('skyview')" href="unity:skyviewbtn">스카이뷰</span>
+			<span id="btnSkyview" class="btn" onclick="setMapType('skyview'); location.href='unity:skyviewbtn';">스카이뷰</span>
 		</div>
 		<div id="roadviewControl" onclick="centerButtonClick()"></div>			
 	</div>
