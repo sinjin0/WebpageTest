@@ -3,31 +3,34 @@
 	<meta charset="utf-8"/>
 	<title>Kakao 지도 시작하기</title>
 	<style>
-		html, body {width:800px;height:600px;margin:0;padding:0;} 
-		.map_wrap {position:relative;overflow:hidden;width:90%;height:90%;}
-		.radius_border{border:1px solid #919191;border-radius:5px;}     
-		.custom_typecontrol {position:absolute;top:10px;right:10px;overflow:hidden;width:130px;height:30px;margin:0;padding:0;z-index:1;font-size:12px;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;}
+		html, body {width:900px;height:600px;margin:0;padding:0;}
+		.map_wrap {position:relative;overflow:hidden;width:100%;height:90%;  }
+		.radius_border{border:1px solid #919191;border-radius:5px;}
+		.custom_typecontrol {position:absolute;top:10px;right:280px;overflow:hidden;width:130px;height:30px;margin:0;padding:0;z-index:1;font-size:12px;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;}
 		.custom_typecontrol span {display:block;width:65px;height:30px;float:left;text-align:center;line-height:30px;cursor:pointer;}
-		.custom_typecontrol .btn {background:#fff;background:linear-gradient(#fff,  #e6e6e6);}       
+		.custom_typecontrol .btn {background:#fff;background:linear-gradient(#fff,  #e6e6e6);}
 		.custom_typecontrol .btn:hover {background:#f5f5f5;background:linear-gradient(#f5f5f5,#e3e3e3);}
-		.custom_typecontrol .btn:active {background:#e6e6e6;background:linear-gradient(#e6e6e6, #fff);}    
+		.custom_typecontrol .btn:active {background:#e6e6e6;background:linear-gradient(#e6e6e6, #fff);}
 		.custom_typecontrol .selected_btn {color:#fff;background:#425470;background:linear-gradient(#425470, #5b6d8a);}
-		.custom_typecontrol .selected_btn:hover {color:#fff;}   	
+		.custom_typecontrol .selected_btn:hover {color:#fff;}
 		#roadviewControl {position:absolute;top:5px;left:5px;width:42px;height:42px;z-index: 1;cursor: pointer; background: url(https://t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_search.png) 0 -450px no-repeat;}
 		#roadviewControl.active {background-position:0 -350px;}
 	</style>
 </head>
-<body>	
+<body>
 
-	<div class="map_wrap">
-		<div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div> 
+	<div class="map_wrap" >
+		<div id="map" style="width:70%;height:100%;position:relative;overflow:hidden; float:left;"></div>
+		<div id="info" style="width:30%;height:100%;position:relative;overflow:hidden; float:right;">
+			<p id="govName" >정압기 이름 : </p>
+			<p id="govInfo" >정압기 정보 : </p>
+		</div>
 		<div class="custom_typecontrol radius_border">
 			<span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap'); location.href='unity:mapbtn';" >지도</span>
 			<span id="btnSkyview" class="btn" onclick="setMapType('skyview'); location.href='unity:skyviewbtn';">스카이뷰</span>
 		</div>
-		<div id="roadviewControl" onclick="centerButtonClick()"></div>			
+		<div id="roadviewControl" onclick="centerButtonClick()"></div>
 	</div>
-	<a href="unity:click">CL1CK</a>
 
 
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7f0ea57fbca0a4cadfffa7ea104b25cf"></script>
@@ -39,9 +42,10 @@
 		};
 
 		var map = new kakao.maps.Map(container, mapOptions);
-		var markerPosition  = new kakao.maps.LatLng(36.393250, 127.405276); 
+		var markerPosition  = new kakao.maps.LatLng(36.393250, 127.405276);
 		var marker = new kakao.maps.Marker({
-			position: markerPosition		
+			position: markerPosition,
+			clickable: true
 		});
 		marker.setMap(map);
 
@@ -53,7 +57,7 @@
 			{
 				title: '목상현대정압기',
 				latlng: new kakao.maps.LatLng(36.44853,127.416)
-			},	
+			},
 			{
 				title: '석봉원창정압기',
 				latlng: new kakao.maps.LatLng(36.45283,127.4246)
@@ -85,7 +89,7 @@
 			{
 				title: '송강한솔정압기',
 				latlng: new kakao.maps.LatLng(36.432,127.3854)
-			},	
+			},
 			{
 				title: '관평예미지정압기',
 				latlng: new kakao.maps.LatLng(36.42504,127.3859)
