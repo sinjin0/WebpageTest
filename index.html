@@ -52,63 +52,78 @@
 		var govPosition = [
 			{
 				title: '목상다사랑정압기',
-				latlng: new kakao.maps.LatLng(36.44675,127.4137)
+				latlng: new kakao.maps.LatLng(36.44675,127.4137),
+				id: 1
 			},
 			{
 				title: '목상현대정압기',
-				latlng: new kakao.maps.LatLng(36.44853,127.416)
+				latlng: new kakao.maps.LatLng(36.44853,127.416),
+				id: 2
 			},
 			{
 				title: '석봉원창정압기',
-				latlng: new kakao.maps.LatLng(36.45283,127.4246)
+				latlng: new kakao.maps.LatLng(36.45283,127.4246),
+				id: 3
 			},
 			{
 				title: '석봉한밭정압기',
-				latlng: new kakao.maps.LatLng(36.44658,127.4244)
+				latlng: new kakao.maps.LatLng(36.44658,127.4244),
+				id: 4
 			},
 			{
 				title: '평촌주공정압기',
-				latlng: new kakao.maps.LatLng(36.43811,127.4242)
+				latlng: new kakao.maps.LatLng(36.43811,127.4242),
+				id: 5
 			},
 			{
 				title: '상서한라정압기',
-				latlng: new kakao.maps.LatLng(36.43435,127.4239)
+				latlng: new kakao.maps.LatLng(36.43435,127.4239),
+				id: 6
 			},
 			{
 				title: '상서대창정압기',
-				latlng: new kakao.maps.LatLng(36.42526,127.4251)
+				latlng: new kakao.maps.LatLng(36.42526,127.4251),
+				id: 7
 			},
 			{
 				title: '신탄새여울정압기',
-				latlng: new kakao.maps.LatLng(36.45106,127.4368)
+				latlng: new kakao.maps.LatLng(36.45106,127.4368),
+				id: 8
 			},
 			{
 				title: '봉산주공정압기',
-				latlng: new kakao.maps.LatLng(36.43896,127.3853)
+				latlng: new kakao.maps.LatLng(36.43896,127.3853),
+				id: 9
 			},
 			{
 				title: '송강한솔정압기',
-				latlng: new kakao.maps.LatLng(36.432,127.3854)
+				latlng: new kakao.maps.LatLng(36.432,127.3854),
+				id: 10
 			},
 			{
 				title: '관평예미지정압기',
-				latlng: new kakao.maps.LatLng(36.42504,127.3859)
+				latlng: new kakao.maps.LatLng(36.42504,127.3859),
+				id: 11
 			},
 			{
 				title: '용산우림정압기',
-				latlng: new kakao.maps.LatLng(36.41769,127.3933)
+				latlng: new kakao.maps.LatLng(36.41769,127.3933),
+				id: 12
 			},
 			{
 				title: '전민푸른정압기',
-				latlng: new kakao.maps.LatLng(36.39903,127.3988)
+				latlng: new kakao.maps.LatLng(36.39903,127.3988),
+				id: 13
 			},
 			{
 				title: '전민엑스포정압기',
-				latlng: new kakao.maps.LatLng(36.39975,127.4077)
+				latlng: new kakao.maps.LatLng(36.39975,127.4077),
+				id: 14
 			},
 			{
 				title: '문지공원정압기',
-				latlng: new kakao.maps.LatLng(36.39218,127.4077)
+				latlng: new kakao.maps.LatLng(36.39218,127.4077),
+				id: 15
 			}
 		];
 
@@ -116,10 +131,10 @@
 
 		for( var i = 0 ; i < govPosition.length ; i++ ) {
 
-			addMarker(govPosition[i].latlng,govPosition[i].title);
+			addMarker(govPosition[i].latlng,govPosition[i].title,govPosition[i].id);
 		}
 
-		function addMarker(position,title) {
+		function addMarker(position,title,id) {
 			var imageSize = new kakao.maps.Size(24,35);
 			var markerImage = new kakao.maps.MarkerImage(imageSrc,imageSize);
 
@@ -133,7 +148,7 @@
 
 			kakao.maps.event.addListener(govMarker,'click',function() {
 				document.getElementById('govName').innerHTML = "정압기 이름 : " + title;
-				location.href = 'unity:gov_1';
+				location.href = 'unity:gov_' + id;
 			});
 
 		}
