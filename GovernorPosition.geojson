@@ -1,0 +1,5135 @@
+{
+	"type": "FeatureCollection",
+	"name": "D:\\씨앤시티\\2차 사업\\09. 개발문서\\도시가스시설(SHP)_20220308\\UFL_GPRS_PS.geojson",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "104",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대덕구청정압기",
+				"IST_YMD": "20041129",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "142",
+				"ID": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237317.792039363004733,
+					416655.626193261006847
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "350",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "상대주공4정압기",
+				"IST_YMD": "20110427",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "201",
+				"ID": "2"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230518.403290460992139,
+					416429.483234327984974
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "251",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "원신흥주공정압기",
+				"IST_YMD": "20100812",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "195",
+				"ID": "3"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230560.666475792007986,
+					415648.006773288012482
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "150",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "송촌선비5정압기",
+				"IST_YMD": "19990825",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "099",
+				"ID": "4"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239908.90851797698997,
+					418737.291633076034486
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "149",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "송촌선비4정압기",
+				"IST_YMD": "19990810",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "098",
+				"ID": "5"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239873.532820824999362,
+					418744.463915082043968
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "250",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "상대주공정압기",
+				"IST_YMD": "20100812",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "194",
+				"ID": "6"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230718.622422077984083,
+					416747.381599485001061
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "230",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도안수목토정압기",
+				"IST_YMD": "20100720",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "193",
+				"ID": "7"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231224.362903058005031,
+					413743.007834951975383
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "29",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉명엑스포정압기",
+				"IST_YMD": "19991230",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "100",
+				"ID": "8"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231135.071110590011813,
+					417282.118308419012465
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "253",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉명자이정압기",
+				"IST_YMD": "20100820",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "196",
+				"ID": "9"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230284.052982038003393,
+					417531.928526361996774
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "17",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "반석양지4정압기",
+				"IST_YMD": "20040730",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "138",
+				"ID": "10"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					227747.440129702008562,
+					421486.367957368958741
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "14",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "지족열매7정압기",
+				"IST_YMD": "20000805",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "104",
+				"ID": "11"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228781.246756687003653,
+					419489.54326847998891
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "13",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "노은상록정압기",
+				"IST_YMD": "20051007",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "154",
+				"ID": "12"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228764.555203293013619,
+					419126.706529407005291
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "12",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "노은열매정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "124",
+				"ID": "13"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228290.103484477993334,
+					418599.958143755036872
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "30",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "궁동다솔정압기",
+				"IST_YMD": "19941210",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "076",
+				"ID": "14"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231076.574472602020251,
+					418313.082079749030527
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "24",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "관저원앙4정압기",
+				"IST_YMD": "19970630",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "082",
+				"ID": "15"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230499.943526334012859,
+					411668.296665713016409
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "87",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "송강한솔정압기",
+				"IST_YMD": "19940730",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "070",
+				"ID": "16"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234479.967663625982823,
+					426140.043068052036688
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "409",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가수원우미지역정압기",
+				"IST_YMD": "20140114",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "209",
+				"ID": "17"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231483.964,
+					412619.965
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "11",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대정드리움정압기",
+				"IST_YMD": "20040618",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "133",
+				"ID": "18"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228891.767638381017605,
+					412981.902071154036094
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "10",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "교촌제이정압기",
+				"IST_YMD": "20050621",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "148",
+				"ID": "19"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228741.89868128602393,
+					411915.334817143040709
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "46",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉명시티빌정압기",
+				"IST_YMD": "20031213",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "128",
+				"ID": "20"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231353.356765745003941,
+					417940.396279611042701
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "39",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "정림우성정압기",
+				"IST_YMD": "19930728",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "055",
+				"ID": "21"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232850.700388917000964,
+					411763.426335990021471
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "168",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "자양동아정압기",
+				"IST_YMD": "20060825",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "170",
+				"ID": "22"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240612.863328249019105,
+					416127.253010554006323
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "167",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "자양임광정압기",
+				"IST_YMD": "19900321",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "023",
+				"ID": "23"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240467.675259779003682,
+					415902.553179548005573
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "191",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도룡스마트정압기",
+				"IST_YMD": "20080907",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "183",
+				"ID": "24"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235281.326164305006387,
+					420118.334978058002889
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "113",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "전민푸른정압기",
+				"IST_YMD": "19920813",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "051",
+				"ID": "25"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235829.342749806004576,
+					422442.762275544984732
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "115",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "목상다사랑정압기",
+				"IST_YMD": "19930828",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "067",
+				"ID": "26"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236976.583224377012812,
+					427723.030031672038604
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "405",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "정림공굴안 구역압력조정기",
+				"IST_YMD": "20121025",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "1001",
+				"ID": "27"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233013.259150007012067,
+					412437.45083315402735
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "56",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "복수초록정압기",
+				"IST_YMD": "20040524",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "132",
+				"ID": "28"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234064.990361442993162,
+					411470.093207326019183
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "36",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가수원은아정압기",
+				"IST_YMD": "19910209",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "032",
+				"ID": "29"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231943.901472466997802,
+					411313.428118142997846
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "38",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가수원계룡정압기",
+				"IST_YMD": "19890107",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "013",
+				"ID": "30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231529.634178764012177,
+					411798.825714304985013
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "6",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "금암주공정압기",
+				"IST_YMD": "20020708",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "120",
+				"ID": "31"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					223045.552260217024013,
+					408225.99387010501232
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "180",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "금암대림정압기",
+				"IST_YMD": "20070720",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "177",
+				"ID": "32"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					223694.982171472016489,
+					407901.75783690897515
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "183",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "금암포스코정압기",
+				"IST_YMD": "20071214",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "180",
+				"ID": "33"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					224145.960780121997232,
+					407891.033316941000521
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "5",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "금암신성정압기",
+				"IST_YMD": "20050415",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "146",
+				"ID": "34"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					222328.484519112011185,
+					408195.000354781979695
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "404",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "엄사블루정압기",
+				"IST_YMD": "20120521",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "207",
+				"ID": "35"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					221297.720735090988455,
+					408995.627105957013555
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "2",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "엄사두산정압기",
+				"IST_YMD": "19940720",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "089",
+				"ID": "36"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					221624.335887739987811,
+					409878.482069070974831
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "4",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "계룡지구정압기",
+				"IST_YMD": "19960315",
+				"SGF_CDE": "SGF010",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "088",
+				"ID": "37"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					222276.170947071019327,
+					409719.97002455801703
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "8",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "방동지구정압기",
+				"IST_YMD": "20001106",
+				"SGF_CDE": "SGF010",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "107",
+				"ID": "38"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228138.63774155601277,
+					409929.712812365032732
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "7",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "방동정압기",
+				"IST_YMD": "20010120",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "111",
+				"ID": "39"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228169.854430531006074,
+					409919.339941404003184
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "66",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "산성우성정압기",
+				"IST_YMD": "19890630",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "016",
+				"ID": "40"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235545.124398051993921,
+					412451.095670123002492
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "48",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "월평타운정압기",
+				"IST_YMD": "19931215",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "068",
+				"ID": "41"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232282.847029836993897,
+					417277.989508478960488
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "62",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도마효성정압기",
+				"IST_YMD": "19970910",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "085",
+				"ID": "42"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234371.971338319999631,
+					412621.256405543012079
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "207",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉산주공정압기",
+				"IST_YMD": "20090514",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "188",
+				"ID": "43"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234501.352432587998919,
+					427031.841327218047809
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "117",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "상서한라정압기",
+				"IST_YMD": "19971122",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "087",
+				"ID": "44"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237988.771984039020026,
+					426259.391384218004532
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "118",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "석봉한밭정압기",
+				"IST_YMD": "19951030",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "007",
+				"ID": "45"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238004.825733155012131,
+					427741.95652817102382
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "154",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신탄새여울정압기",
+				"IST_YMD": "19940810",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "071",
+				"ID": "46"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239076.640806615003385,
+					428255.624748702975921
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "152",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "와동현대정압기",
+				"IST_YMD": "19940315",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "069",
+				"ID": "47"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238025.636765879986342,
+					422775.067342419992201
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "86",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용산우림정압기",
+				"IST_YMD": "20050720",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "115",
+				"ID": "48"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235431.865497433027485,
+					424466.65939020703081
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "114",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "전민엑스포정압기",
+				"IST_YMD": "19930322",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "063",
+				"ID": "49"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236476.981612024013884,
+					422611.005368490994442
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "18",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "반석양지1정압기",
+				"IST_YMD": "20040728",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "137",
+				"ID": "50"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					227919.29990663001081,
+					422026.791434611019213
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "410",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉명대우지역정압기",
+				"IST_YMD": "20140602",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "210",
+				"ID": "51"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230739.869946066028206,
+					417577.483504189993255
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "415",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신탄남경정압기",
+				"IST_YMD": "20151223",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "213",
+				"ID": "52"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238502.782387260987889,
+					427303.543163011025172
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "419",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "엄사공원정압기",
+				"IST_YMD": "20161207",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "216",
+				"ID": "53"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					221882.667184113000985,
+					410286.844453696045093
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "61",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "변동동건정압기",
+				"IST_YMD": "20031004",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "125",
+				"ID": "54"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233820.32229953299975,
+					414067.565647376992274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "60",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도마주택정압기",
+				"IST_YMD": "20040130",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "129",
+				"ID": "55"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233693.77645033900626,
+					413686.661659339035396
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "43",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "내동서우정압기",
+				"IST_YMD": "19890928",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "018",
+				"ID": "56"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233483.469988158991328,
+					415068.690505462989677
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "41",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도마대운정압기",
+				"IST_YMD": "20031217",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "127",
+				"ID": "57"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233496.785265846992843,
+					412610.339662072015926
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "40",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도마도솔정압기",
+				"IST_YMD": "20121030",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "118",
+				"ID": "58"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233078.338836806011386,
+					414254.733085937972646
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "194",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "괴정동백정압기",
+				"IST_YMD": "20081211",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "185",
+				"ID": "59"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234238.931851457979064,
+					415269.002867994015105
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "71",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "둔산녹원정압기",
+				"IST_YMD": "19941020",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "073",
+				"ID": "60"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234111.475595335010439,
+					416794.796703292056918
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "68",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "내동맑은정압기",
+				"IST_YMD": "20040130",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "130",
+				"ID": "61"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234359.111205978028011,
+					414756.962298900994938
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "32",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "하기매봉정압기",
+				"IST_YMD": "20060224",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "061",
+				"ID": "62"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					229693.715211811999325,
+					421280.197817362030037
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "21",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "하기송림정압기",
+				"IST_YMD": "20040628",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "134",
+				"ID": "63"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228867.170457922009518,
+					421111.682789142010733
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "19",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "지족열매1정압기",
+				"IST_YMD": "20010925",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "006",
+				"ID": "64"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228395.578944153996417,
+					420265.704743275011424
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "406",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용전신동아정압기",
+				"IST_YMD": "20131112",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "208",
+				"ID": "65"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239233.923771929024952,
+					417923.019654953037389
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "16",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "반석마을정압기",
+				"IST_YMD": "20040629",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "136",
+				"ID": "66"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228048.028156369022327,
+					421155.12711241596844
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "35",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "추목복지관정압기",
+				"IST_YMD": "20040730",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "139",
+				"ID": "67"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230596.897175159014296,
+					423951.245597599016037
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "34",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "자운군인정압기",
+				"IST_YMD": "19920928",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "062",
+				"ID": "68"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230225.18716536698048,
+					423852.144732362998184
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "33",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신성한울정압기",
+				"IST_YMD": "19921201",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "058",
+				"ID": "69"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231212.988478426996153,
+					420885.870269792969339
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "28",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "장대드림정압기",
+				"IST_YMD": "20020131",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "114",
+				"ID": "70"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230265.642757674009772,
+					418261.485318421968259
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "83",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도룡엘지정압기",
+				"IST_YMD": "20060922",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "172",
+				"ID": "71"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233924.181243545986945,
+					421122.489574845996685
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "52",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "과기대정압기",
+				"IST_YMD": "20051202",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "021",
+				"ID": "72"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232875.903841972991358,
+					419688.307295867009088
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "49",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "과기원정압기",
+				"IST_YMD": "20060919",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "020",
+				"ID": "73"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232313.685343424003804,
+					418838.639805387996603
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "85",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "관평테크노정압기",
+				"IST_YMD": "20051205",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG002",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "163",
+				"ID": "74"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234553.722732535010437,
+					424964.645425777998753
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "57",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "사정동원정압기",
+				"IST_YMD": "20001223",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "110",
+				"ID": "75"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234746.227699631999712,
+					411183.83267308602808
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "98",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용두늘푸른정압기",
+				"IST_YMD": "19960910",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "086",
+				"ID": "76"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236619.112219697010005,
+					414702.533057329012081
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "93",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "오류삼성정압기",
+				"IST_YMD": "19900911",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "029",
+				"ID": "77"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236690.341365967004094,
+					413938.634874215989839
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "92",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "문화홍익정압기",
+				"IST_YMD": "19891205",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "024",
+				"ID": "78"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236966.80710306102992,
+					412931.051117543014698
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "91",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "문화마을정압기",
+				"IST_YMD": "20060726",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "166",
+				"ID": "79"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236606.275700664031319,
+					413234.510701066988986
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "124",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "부사조합정압기",
+				"IST_YMD": "20050721",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "150",
+				"ID": "80"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239080.764744248008355,
+					413063.407388636027463
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "123",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "부사주택정압기",
+				"IST_YMD": "20031115",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "126",
+				"ID": "81"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239097.319833254005061,
+					412601.395628438040148
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "119",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대흥현대정압기",
+				"IST_YMD": "19910813",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "040",
+				"ID": "82"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238292.83999107600539,
+					413459.458130521990824
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "197",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "오정새마을정압기",
+				"IST_YMD": "20081223",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "187",
+				"ID": "83"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237187.246985751000466,
+					417749.083609927038196
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "143",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용전큰솔정압기",
+				"IST_YMD": "20001018",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "106",
+				"ID": "84"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239029.275403605017345,
+					417579.440737853990868
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "142",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용전한숲정압기",
+				"IST_YMD": "19990705",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "094",
+				"ID": "85"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238523.733275806007441,
+					417358.355381984030828
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "139",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "중리임광정압기",
+				"IST_YMD": "19880212",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "002",
+				"ID": "86"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238114.903406661003828,
+					417846.831038705015089
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "133",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용전신진정압기",
+				"IST_YMD": "19881019",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "009",
+				"ID": "87"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238787.128624270990258,
+					417116.462341868027579
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "107",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "동구보건소정압기",
+				"IST_YMD": "20041224",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "144",
+				"ID": "88"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237777.006036690989276,
+					416153.136179419991095
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "90",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "문화계룡2정압기",
+				"IST_YMD": "19920604",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "054",
+				"ID": "89"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236392.374584909994155,
+					412897.953256089007482
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "89",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "유천현대정압기",
+				"IST_YMD": "19910201",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "030",
+				"ID": "90"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235843.745834264991572,
+					413726.761350009997841
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "88",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "문화극동정압기",
+				"IST_YMD": "19920818",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "053",
+				"ID": "91"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236076.226623605005443,
+					412097.997535291011445
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "67",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "태평삼부정압기",
+				"IST_YMD": "19911231",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "045",
+				"ID": "92"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235395.757029071013676,
+					414159.136444461008068
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "65",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "태평버드내정압기",
+				"IST_YMD": "20000902",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "103",
+				"ID": "93"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235064.313966180983698,
+					413566.171726964996196
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "64",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "유천큰솔정압기",
+				"IST_YMD": "20040521",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "131",
+				"ID": "94"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235028.421328777010785,
+					413016.019304208981339
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "102",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "중촌임대정압기",
+				"IST_YMD": "19911009",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "043",
+				"ID": "95"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236899.361285918013891,
+					416422.758011828002054
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "110",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "오정한울정압기",
+				"IST_YMD": "20051117",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "157",
+				"ID": "96"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236423.522445163020166,
+					417328.262148962006904
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "72",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "탄방한우리정압기",
+				"IST_YMD": "19940917",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "072",
+				"ID": "97"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234793.004189945000689,
+					416491.670800482970662
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "193",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "탄방주택정압기",
+				"IST_YMD": "20081128",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "184",
+				"ID": "98"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235026.743931660981616,
+					416169.788080378028098
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "96",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "태평푸른뫼정압기",
+				"IST_YMD": "19990910",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "095",
+				"ID": "99"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235781.151687054982176,
+					414772.019727303995751
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "75",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "탄방한가람정압기",
+				"IST_YMD": "19911128",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "044",
+				"ID": "100"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235236.674312778020976,
+					416820.350004678010009
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "74",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용문협신정압기",
+				"IST_YMD": "19880826",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "010",
+				"ID": "101"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235029.843259104993194,
+					415464.862978324003052
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "73",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용문한마음정압기",
+				"IST_YMD": "20001027",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "105",
+				"ID": "102"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235260.876189331000205,
+					414918.123580253974069
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "103",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "목동현대정압기",
+				"IST_YMD": "19910525",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "039",
+				"ID": "103"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237153.42163380200509,
+					414552.131865696981549
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "153",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "상서대창정압기",
+				"IST_YMD": "20001201",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "109",
+				"ID": "104"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238070.406833377986914,
+					425428.383772312023211
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "25",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "장대대우정압기",
+				"IST_YMD": "20061023",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "173",
+				"ID": "105"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					229858.410469107009703,
+					418097.62674022099236
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "55",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "사정스타원정압기",
+				"IST_YMD": "20051213",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "160",
+				"ID": "106"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234318.782902767998166,
+					410618.410042707051616
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "37",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "정림삼정정압기",
+				"IST_YMD": "19920829",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "048",
+				"ID": "107"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232721.354071823996492,
+					411193.87420299998485
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "63",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "산성한밭정압기",
+				"IST_YMD": "19910830",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "028",
+				"ID": "108"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234643.985355529992376,
+					412192.053593218966853
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "312",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용운마을정압기",
+				"IST_YMD": "20101216",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "199",
+				"ID": "109"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					241635.835794874030398,
+					415193.19358037301572
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "159",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "산내주공정압기",
+				"IST_YMD": "19910109",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "037",
+				"ID": "110"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					242037.064676876994781,
+					409654.759118363028392
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "330",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대흥주택정압기",
+				"IST_YMD": "20110118",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "200",
+				"ID": "111"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237734.917649148992496,
+					413405.535476383054629
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "160",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가오주공정압기",
+				"IST_YMD": "19910108",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "034",
+				"ID": "112"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240647.664609002007637,
+					412120.915235719992779
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "185",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "천동주공정압기",
+				"IST_YMD": "20071228",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "182",
+				"ID": "113"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239992.390887567016762,
+					413081.93452063301811
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "156",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "옥계탑그린정압기",
+				"IST_YMD": "20050811",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG002",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "140",
+				"ID": "114"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240646.571525266015669,
+					411615.152151942020282
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "162",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대성코오롱정압기",
+				"IST_YMD": "20060925",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "014",
+				"ID": "115"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					241039.527583842020249,
+					411774.855933146027382
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "76",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "둔산향촌정압기",
+				"IST_YMD": "19950128",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "075",
+				"ID": "116"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233791.851730319001945,
+					417578.786138333030976
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "77",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "월평백합정압기",
+				"IST_YMD": "19930708",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "064",
+				"ID": "117"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233791.037373725004727,
+					418229.830049531999975
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "78",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "둔산시그마정압기",
+				"IST_YMD": "20050726",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "152",
+				"ID": "118"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234272.998488287004875,
+					417987.16102578403661
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "161",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용운용방정압기",
+				"IST_YMD": "20021227",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "033",
+				"ID": "119"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240282.52043397500529,
+					414236.722081009997055
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "181",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대흥현대1정압기",
+				"IST_YMD": "20070921",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "178",
+				"ID": "120"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238789.520494224008871,
+					414172.232337185007054
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "206",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "중앙시장정압기",
+				"IST_YMD": "20090527",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "189",
+				"ID": "121"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238704.11349277800764,
+					414645.154654260026291
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "182",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "선화동건정압기",
+				"IST_YMD": "20071107",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "179",
+				"ID": "122"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237963.075812337017851,
+					414955.450602827011608
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "129",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "삼성빌라정압기",
+				"IST_YMD": "19961231",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "083",
+				"ID": "123"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238155.154766385996481,
+					415201.463547763007227
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "136",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "성남석촌정압기",
+				"IST_YMD": "20000331",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "101",
+				"ID": "124"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239362.547896443022182,
+					416037.677400767977815
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "106",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "선화현대정압기",
+				"IST_YMD": "19891013",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "025",
+				"ID": "125"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237564.747161950013833,
+					415163.718884733039886
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "70",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "갈마큰마을정압기",
+				"IST_YMD": "19950929",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "080",
+				"ID": "126"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234034.480466932000127,
+					416252.365857723983936
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "105",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "충남경찰청정압기",
+				"IST_YMD": "20041217",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "145",
+				"ID": "127"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237671.482852089015068,
+					414512.139423603017349
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "134",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "성남큰솔정압기",
+				"IST_YMD": "20031031",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "026",
+				"ID": "128"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238928.557376128010219,
+					416061.393413465993945
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "164",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가오현대정압기",
+				"IST_YMD": "20060413",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "164",
+				"ID": "129"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					241360.875477086985484,
+					412521.469125372008421
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "163",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가오풍림정압기",
+				"IST_YMD": "20060814",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "167",
+				"ID": "130"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240978.960096331982641,
+					412512.628322878968902
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "127",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "효동현대정압기",
+				"IST_YMD": "19980826",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "091",
+				"ID": "131"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239488.389083404006669,
+					413494.783502597012557
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "126",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "석교그랜드정압기",
+				"IST_YMD": "20060731",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "168",
+				"ID": "132"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239664.915080936014419,
+					412401.901439190027304
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "173",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "비래임광정압기",
+				"IST_YMD": "19880704",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "008",
+				"ID": "133"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240374.602862461993936,
+					417785.156160582031589
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "171",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용운그린정압기",
+				"IST_YMD": "20051202",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "159",
+				"ID": "134"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240941.26042752500507,
+					414962.233822698995937
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "170",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용운주공정압기",
+				"IST_YMD": "19871113",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "003",
+				"ID": "135"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240743.494267054978991,
+					414584.33422183804214
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "169",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가양큰솔정압기",
+				"IST_YMD": "20020520",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "119",
+				"ID": "136"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240488.821265214995947,
+					416677.246926557971165
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "69",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "괴정한신정압기",
+				"IST_YMD": "19910121",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "036",
+				"ID": "137"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234297.183426687988685,
+					415919.021594336023554
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "45",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "갈마동산정압기",
+				"IST_YMD": "19881028",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "012",
+				"ID": "138"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233323.122828280989779,
+					416982.006331440992653
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "95",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대사계룡정압기",
+				"IST_YMD": "20051007",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "153",
+				"ID": "139"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237407.128033140994376,
+					413695.833997644018382
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "122",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대흥동건정압기",
+				"IST_YMD": "20050525",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "149",
+				"ID": "140"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238485.026014049013611,
+					414005.263227802002802
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "148",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "비래한신정압기",
+				"IST_YMD": "20051020",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "158",
+				"ID": "141"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					240138.980145294015529,
+					417487.132673159998376
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "137",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가양한성정압기",
+				"IST_YMD": "19880628",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "005",
+				"ID": "142"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239742.987971627997467,
+					416816.440096241014544
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "208",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "송촌정수장정압기",
+				"IST_YMD": "20090906",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "190",
+				"ID": "143"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239608.854924055020092,
+					417998.284912554023322
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "145",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "송촌크라운정압기",
+				"IST_YMD": "19890418",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "027",
+				"ID": "144"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239694.856919782992918,
+					417260.947878627979662
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "196",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "지족빌딩정압기",
+				"IST_YMD": "20081212",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "186",
+				"ID": "145"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228468.443873562995577,
+					419741.736420756962616
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "392",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "선화주공정압기",
+				"IST_YMD": "20111227",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "205",
+				"ID": "146"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237540.855092434008839,
+					414117.712068514025304
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "151",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "읍내현대정압기",
+				"IST_YMD": "19910605",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "038",
+				"ID": "147"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238213.097160973993596,
+					420171.585887680994347
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "147",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "송촌선비3정압기",
+				"IST_YMD": "19991015",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "097",
+				"ID": "148"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239470.421202228026232,
+					418948.766303086013068
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "144",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "법동한마음정압기",
+				"IST_YMD": "19920829",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "049",
+				"ID": "149"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238914.731660187011585,
+					419199.160470194008667
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "141",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "법동삼정정압기",
+				"IST_YMD": "19871113",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "001",
+				"ID": "150"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238371.349576039996464,
+					419659.467187165049836
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "112",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대화두레정압기",
+				"IST_YMD": "20010512",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "113",
+				"ID": "151"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237446.894598058017436,
+					418410.202327506034635
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "111",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대화세원정압기",
+				"IST_YMD": "19891013",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "022",
+				"ID": "152"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237455.69361188201583,
+					418846.639882686024066
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "15",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "지족열매5정압기",
+				"IST_YMD": "20001211",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "108",
+				"ID": "153"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228673.030151226994349,
+					419843.043971816019621
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "146",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "송촌선비2정압기",
+				"IST_YMD": "19980407",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "096",
+				"ID": "154"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239362.553869074006798,
+					418884.526050660002511
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "391",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "중리공원정압기",
+				"IST_YMD": "20111115",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "204",
+				"ID": "155"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238357.571347735996824,
+					418374.441023662977386
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "179",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "관평예미지정압기",
+				"IST_YMD": "20070702",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "176",
+				"ID": "156"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234735.00855264699203,
+					425303.721340882009827
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "311",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "갈마공원정압기",
+				"IST_YMD": "20101214",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "198",
+				"ID": "157"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233577.161487185017904,
+					415918.460802319983486
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "26",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉명정원정압기",
+				"IST_YMD": "20020830",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "052",
+				"ID": "158"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230192.480166665016441,
+					417475.443927910004277
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "27",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉명리베라정압기",
+				"IST_YMD": "19880831",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "011",
+				"ID": "159"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230352.936092777003068,
+					417486.979622336046305
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "184",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "정림명암정압기",
+				"IST_YMD": "20071221",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "181",
+				"ID": "160"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232201.401053123001475,
+					412550.614872554957401
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "80",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "둔산크로바정압기",
+				"IST_YMD": "19921201",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "050",
+				"ID": "161"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235050.08559481301927,
+					417328.901509542018175
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "81",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "둔산샘머리정압기",
+				"IST_YMD": "19980921",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "093",
+				"ID": "162"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235055.618596659012837,
+					418144.839914468000643
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "82",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "둔산수정정압기",
+				"IST_YMD": "19921201",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "057",
+				"ID": "163"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235504.356676129013067,
+					418032.318654513976071
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "109",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "삼천보라정압기",
+				"IST_YMD": "19910906",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "041",
+				"ID": "164"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235892.085701753007015,
+					417328.947220838977955
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "97",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용문주택정압기",
+				"IST_YMD": "20020110",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "116",
+				"ID": "165"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236000.302900239010341,
+					416150.567324867995922
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "51",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "월평다모아정압기",
+				"IST_YMD": "19931130",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "065",
+				"ID": "166"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233050.111709684017114,
+					418259.477785977011081
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "79",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "만년초원정압기",
+				"IST_YMD": "19950205",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "077",
+				"ID": "167"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234027.588566521008033,
+					418885.807926178968046
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "42",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "갈마조합정압기",
+				"IST_YMD": "19921121",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "059",
+				"ID": "168"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232910.866311960009625,
+					416076.545514070021454
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "44",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "갈마푸른정압기",
+				"IST_YMD": "19980826",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "092",
+				"ID": "169"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233343.8910899999901,
+					416126.657895221025683
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "53",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "갈마연흥정압기",
+				"IST_YMD": "20031231",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "074",
+				"ID": "170"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233205.83277881302638,
+					417414.434850882971659
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "418",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "엄사파라디정압기",
+				"IST_YMD": "20160629",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "215",
+				"ID": "171"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					220845.90828517198679,
+					409514.252589383977465
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "416",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "월평공원정압기",
+				"IST_YMD": "20151223",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "214",
+				"ID": "172"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232631.983597208018182,
+					417454.089541058987379
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "3",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "남선영외정압기",
+				"IST_YMD": "19940704",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "081",
+				"ID": "173"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					221753.446913360006874,
+					411323.177334612002596
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "1",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "엄사삼진정압기",
+				"IST_YMD": "19971010",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "090",
+				"ID": "174"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					221453.836955939012114,
+					409363.064816498022992
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "411",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "자운산단정압기",
+				"IST_YMD": "20140830",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "211",
+				"ID": "175"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231711.852,
+					422034.329
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "421",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "가양주택정압기",
+				"IST_YMD": "20111203",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "218",
+				"ID": "176"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239696.447,
+					416047.74
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "423",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "두마주택정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "221",
+				"ID": "177"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					223008.492105468991213,
+					407408.417941406019963
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "424",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "두마공원정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "220",
+				"ID": "178"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					223219.347,
+					407307.143
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "425",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "갈마휴리움정압기",
+				"IST_YMD": "20180913",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "222",
+				"ID": "179"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233116.50229551299708,
+					416933.943286438006908
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "436",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "목동더샵정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "233",
+				"ID": "180"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237100.763497539999662,
+					415194.14396990701789
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "437",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "평촌마을정압기",
+				"IST_YMD": "20211027",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "234",
+				"ID": "181"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238961.137973881006474,
+					426695.172727790020872
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "428",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "둔곡공원정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "225",
+				"ID": "182"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232591.435,
+					428459.19
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "430",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "유성구청정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "227",
+				"ID": "183"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					232013.371896972996183,
+					418361.24010986299254
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "431",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용운이편한정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "228",
+				"ID": "184"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					241543.122,
+					414515.405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "427",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "관저더샾2정압기",
+				"IST_YMD": "00000000",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "224",
+				"ID": "185"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					229400.701608599018073,
+					410665.714906306995545
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "59",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "복수목화정압기",
+				"IST_YMD": "19920701",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "056",
+				"ID": "186"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233585.953859293018468,
+					412427.052028101985343
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "58",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "복수계룡정압기",
+				"IST_YMD": "19901214",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "031",
+				"ID": "187"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					233543.006471783999586,
+					412083.658551511995029
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "23",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "관저느리울정압기",
+				"IST_YMD": "20021113",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "121",
+				"ID": "188"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230603.246624320978299,
+					411029.176970314001665
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "9",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "원내진잠정압기",
+				"IST_YMD": "19950819",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "078",
+				"ID": "189"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228770.930534461978823,
+					411200.838686546019744
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "22",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "관저신선2정압기",
+				"IST_YMD": "20000602",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "102",
+				"ID": "190"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					229849.12163254400366,
+					411281.342731099983212
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "422",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "학하오투정압기",
+				"IST_YMD": "20180523",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "219",
+				"ID": "191"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					227436.416383164003491,
+					416060.043338906019926
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "370",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "학하주택정압기",
+				"IST_YMD": "20110725",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "202",
+				"ID": "192"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					227720.253965584997786,
+					415746.865086656005587
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "54",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신성애경정압기",
+				"IST_YMD": "20060918",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "171",
+				"ID": "193"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					231602.331236926023848,
+					421432.541356419038493
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "20",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "지족스카이정압기",
+				"IST_YMD": "20050509",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "147",
+				"ID": "194"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					228717.689670400985051,
+					420537.552826464991085
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "31",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "죽동복지관정압기",
+				"IST_YMD": "20040630",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "135",
+				"ID": "195"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					229040.325607801001752,
+					420443.594399733003229
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "412",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "죽동공원정압기",
+				"IST_YMD": "20141111",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "212",
+				"ID": "196"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230102.71,
+					419638.268
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "210",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "덕명하우스정압기",
+				"IST_YMD": "20100507",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "192",
+				"ID": "197"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					227361.324086200009333,
+					417954.601724569976795
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "432",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "중촌현대정압기",
+				"IST_YMD": "20200924",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "229",
+				"ID": "198"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236885.428645724023227,
+					415777.498894798976835
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "429",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "법동이편한정압",
+				"IST_YMD": "20200527",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "226",
+				"ID": "199"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238024.665,
+					419028.825
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "426",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신흥시티정압기",
+				"IST_YMD": "20180807",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "223",
+				"ID": "200"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239479.581067509017885,
+					414165.320804968010634
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "166",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "판암주공4정압기",
+				"IST_YMD": "19920820",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "047",
+				"ID": "201"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					241450.972408502013423,
+					413892.769526101998053
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "99",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "목동목양정압기",
+				"IST_YMD": "20030529",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "122",
+				"ID": "202"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236544.837658323027426,
+					415255.758001841022633
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "125",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "인동한울정압기",
+				"IST_YMD": "20030617",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "123",
+				"ID": "203"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239107.633144260995323,
+					414112.818782416987233
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "390",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대동주공정압기",
+				"IST_YMD": "20110906",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "203",
+				"ID": "204"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239993.158514182985527,
+					414379.299771427060477
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "209",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신흥주공정압기",
+				"IST_YMD": "20100322",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "191",
+				"ID": "205"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239839.451019582018489,
+					414412.05908386799274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "165",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "판암주공2정압기",
+				"IST_YMD": "19900321",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "019",
+				"ID": "206"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					241384.643274586007465,
+					413347.02804849302629
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "128",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신흥마을정압기",
+				"IST_YMD": "20060126",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "162",
+				"ID": "207"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					239827.538154959009262,
+					413629.203137720003724
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "131",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "삼성미소정압기",
+				"IST_YMD": "20051223",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "161",
+				"ID": "208"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238665.002539223001804,
+					415516.528608246007934
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "157",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "대성삼익정압기",
+				"IST_YMD": "19910430",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "035",
+				"ID": "209"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					241293.141585703007877,
+					411170.848908645042684
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "130",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "삼성자이정압기",
+				"IST_YMD": "20060517",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "165",
+				"ID": "210"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238260.530403437995119,
+					415897.020190122013446
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "178",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "삼성타운정압기",
+				"IST_YMD": "20070515",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "175",
+				"ID": "211"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238756.40244299400365,
+					415789.458034723007586
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "158",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "낭월석천들정압기",
+				"IST_YMD": "20041005",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "141",
+				"ID": "212"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					242030.629879087995505,
+					409041.063597831001971
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "177",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "홍도신동아정압기",
+				"IST_YMD": "20070510",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "174",
+				"ID": "213"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238197.700428968004417,
+					416673.660246084036771
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "108",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "오정영진정압기",
+				"IST_YMD": "19911121",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "042",
+				"ID": "214"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237681.256058255006792,
+					416980.152717081014998
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "420",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "문지공원정압기",
+				"IST_YMD": "20151019",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "217",
+				"ID": "215"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236518.045114583015675,
+					421669.78866406303132
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "310",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "평촌주공정압기",
+				"IST_YMD": "20101229",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "197",
+				"ID": "216"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238134.34543582398328,
+					426822.536501589987893
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "155",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "석봉원창정압기",
+				"IST_YMD": "19950810",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "079",
+				"ID": "217"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238075.968159190000733,
+					428449.522419310000259
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "116",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "목상현대정압기",
+				"IST_YMD": "19970122",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "084",
+				"ID": "218"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					237273.774300598015543,
+					427927.965565068006981
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "439",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "봉명스파텔정압기",
+				"IST_YMD": "20211208",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "236",
+				"ID": "219"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230999.074527635995764,
+					417527.079395600012504
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "438",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "도마이편한정압기",
+				"IST_YMD": "20211130",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "235",
+				"ID": "220"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					234391.293,
+					412968.07
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "435",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "복용현대정압기",
+				"IST_YMD": "20210722",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "231",
+				"ID": "221"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					229909.035238281008787,
+					415362.405781249981374
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "434",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "신탄동일정압기",
+				"IST_YMD": "20210715",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "232",
+				"ID": "222"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					238797.546641980996355,
+					428362.31040923402179
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "433",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "원신흥공원지역정압기",
+				"IST_YMD": "20201215",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "230",
+				"ID": "223"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					230636.52320039703045,
+					414992.386397729977034
+				]
+			}
+		}
+	]
+}
