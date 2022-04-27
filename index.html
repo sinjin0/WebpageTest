@@ -1,6 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
+	<script src="proj4js-combined.js"></script>
 	<title>Kakao 지도 시작하기</title>
 	<style>
 		html, body {width:900px;height:600px;margin:0;padding:0;}
@@ -23,7 +24,8 @@
 		<div id="map" style="width:70%;height:100%;position:relative;overflow:hidden; float:left;"></div>
 		<div id="info" style="width:30%;height:100%;position:relative;overflow:hidden; float:right;">
 			<p id="govName" >정압기 이름 : </p>
-			<p id="govInfo" >정압기 정보 : </p>
+			<p id="govInfo" >정압기 ID : </p>
+			<p id="govGPS"  >정압기 GPS : </p>
 		</div>
 		<div class="custom_typecontrol radius_border">
 			<span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap'); location.href='unity:mapbtn';" >지도</span>
@@ -33,7 +35,7 @@
 	</div>
 
 
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7f0ea57fbca0a4cadfffa7ea104b25cf"></script>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7f0ea57fbca0a4cadfffa7ea104b25cf"></script>    
 	<script type="text/javascript" src="./GovernorPosition.geojson"></script>
 	<script>
 		var container = document.getElementById('map');
@@ -49,90 +51,35 @@
 			clickable: true
 		});
 		marker.setMap(map);
-
-		var govPosition = [
-			{
-				title: '목상다사랑정압기',
-				latlng: new kakao.maps.LatLng(36.44675,127.4137),
-				id: 1
-			},
-			{
-				title: '목상현대정압기',
-				latlng: new kakao.maps.LatLng(36.44853,127.416),
-				id: 2
-			},
-			{
-				title: '석봉원창정압기',
-				latlng: new kakao.maps.LatLng(36.45283,127.4246),
-				id: 3
-			},
-			{
-				title: '석봉한밭정압기',
-				latlng: new kakao.maps.LatLng(36.44658,127.4244),
-				id: 4
-			},
-			{
-				title: '평촌주공정압기',
-				latlng: new kakao.maps.LatLng(36.43811,127.4242),
-				id: 5
-			},
-			{
-				title: '상서한라정압기',
-				latlng: new kakao.maps.LatLng(36.43435,127.4239),
-				id: 6
-			},
-			{
-				title: '상서대창정압기',
-				latlng: new kakao.maps.LatLng(36.42526,127.4251),
-				id: 7
-			},
-			{
-				title: '신탄새여울정압기',
-				latlng: new kakao.maps.LatLng(36.45106,127.4368),
-				id: 8
-			},
-			{
-				title: '봉산주공정압기',
-				latlng: new kakao.maps.LatLng(36.43896,127.3853),
-				id: 9
-			},
-			{
-				title: '송강한솔정압기',
-				latlng: new kakao.maps.LatLng(36.432,127.3854),
-				id: 10
-			},
-			{
-				title: '관평예미지정압기',
-				latlng: new kakao.maps.LatLng(36.42504,127.3859),
-				id: 11
-			},
-			{
-				title: '용산우림정압기',
-				latlng: new kakao.maps.LatLng(36.41769,127.3933),
-				id: 12
-			},
-			{
-				title: '전민푸른정압기',
-				latlng: new kakao.maps.LatLng(36.39903,127.3988),
-				id: 13
-			},
-			{
-				title: '전민엑스포정압기',
-				latlng: new kakao.maps.LatLng(36.39975,127.4077),
-				id: 14
-			},
-			{
-				title: '문지공원정압기',
-				latlng: new kakao.maps.LatLng(36.39218,127.4077),
-				id: 15
-			}
-		];
-
+		
 		var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
 
-		for( var i = 0 ; i < govPosition.length ; i++ ) {
+     	   var parseData = JSON.parse(JSON.stringify(Params));
 
-			addMarker(govPosition[i].latlng,govPosition[i].title,govPosition[i].id);
+		for( var i = 0 ; i < parseData.features.length ; i++ ) {
+
+			Proj4js.defs["EPSG:4326"] = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs";
+			Proj4js.defs["EPSG:2097"] = "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs +towgs84=-115.80,474.99,674.11,1.16,-2.31,-1.63,6.43";
+			Proj4js.defs["EPSG:4019"] = "+proj=longlat +ellps=GRS80 +no_defs";
+
+			Proj4js.defs["EPSG:5174"] = "+proj=tmerc +lat_0=38 +lon_0=127.0028902777778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs +towgs84=-115.80,474.99,674.11,1.16,-2.31,-1.63,6.43"
+			Proj4js.defs["EPSG:5181"] = "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +units=m +no_defs"
+			Proj4js.defs["EPSG:5186"] = "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs"
+
+			var wgs84 = new Proj4js.Proj("EPSG:4326");
+			var grs80 = new Proj4js.Proj("EPSG:4019");
+			var test = new Proj4js.Proj("EPSG:2097");
+			var test2 = new Proj4js.Proj("EPSG:5174");
+			var test3 = new Proj4js.Proj("EPSG:5186");
+			var kakaoPoint = new Proj4js.Proj("EPSG:5181");
+
+			var p = new Proj4js.Point(parseData.features[i].geometry.coordinates[0],parseData.features[i].geometry.coordinates[1]);
+			Proj4js.transform(test3, wgs84, p);
+
+			var latlng = new kakao.maps.LatLng(p.y, p.x);
+
+			addMarker(latlng,parseData.features[i].properties.STD_NAM,parseData.features[i].properties.ID);
+			
 		}
 
 		function addMarker(position,title,id) {
@@ -146,9 +93,11 @@
 				image: markerImage,
 				clickable: true
 			});
-
+			
 			kakao.maps.event.addListener(govMarker,'click',function() {
 				document.getElementById('govName').innerHTML = "정압기 이름 : " + title;
+				document.getElementById('govInfo').innerHTML = "정압기 ID : " + id;
+				document.getElementById('govGPS').innerHTML = "정압기 GPS : " + position.toString();
 				location.href = 'unity:gov_' + id;
 			});
 
