@@ -59,22 +59,13 @@
 		for( var i = 0 ; i < parseData.features.length ; i++ ) {
 
 			Proj4js.defs["EPSG:4326"] = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs";
-			Proj4js.defs["EPSG:2097"] = "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs +towgs84=-115.80,474.99,674.11,1.16,-2.31,-1.63,6.43";
-			Proj4js.defs["EPSG:4019"] = "+proj=longlat +ellps=GRS80 +no_defs";
-
-			Proj4js.defs["EPSG:5174"] = "+proj=tmerc +lat_0=38 +lon_0=127.0028902777778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs +towgs84=-115.80,474.99,674.11,1.16,-2.31,-1.63,6.43"
-			Proj4js.defs["EPSG:5181"] = "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +units=m +no_defs"
 			Proj4js.defs["EPSG:5186"] = "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs"
 
 			var wgs84 = new Proj4js.Proj("EPSG:4326");
-			var grs80 = new Proj4js.Proj("EPSG:4019");
-			var test = new Proj4js.Proj("EPSG:2097");
-			var test2 = new Proj4js.Proj("EPSG:5174");
-			var test3 = new Proj4js.Proj("EPSG:5186");
-			var kakaoPoint = new Proj4js.Proj("EPSG:5181");
+			var grs80 = new Proj4js.Proj("EPSG:5186");
 
 			var p = new Proj4js.Point(parseData.features[i].geometry.coordinates[0],parseData.features[i].geometry.coordinates[1]);
-			Proj4js.transform(test3, wgs84, p);
+			Proj4js.transform(grs80, wgs84, p);
 
 			var latlng = new kakao.maps.LatLng(p.y, p.x);
 
@@ -98,7 +89,7 @@
 				document.getElementById('govName').innerHTML = "정압기 이름 : " + title;
 				document.getElementById('govInfo').innerHTML = "정압기 ID : " + id;
 				document.getElementById('govGPS').innerHTML = "정압기 GPS : " + position.toString();
-				location.href = 'unity:gov_' + id;
+				location.href = 'unity:gov_click' + id;
 			});
 
 		}
