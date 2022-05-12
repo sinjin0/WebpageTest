@@ -5,6 +5,29 @@ Params = {
 		{
 			"type": "Feature",
 			"properties": {
+				"FTR_IDN": "804",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "미건테크노정압기",
+				"IST_YMD": "20041129",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "542",
+				"ID": "300"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					236358.99074760975,
+					421757.01056792954
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"FTR_IDN": "104",
 				"FTR_CDE": "SG010",
 				"MNG_CDE": "A013000",
