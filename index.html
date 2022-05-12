@@ -76,7 +76,7 @@
 		setInterval(sendGPSPosition,2000);
 
 		function sendGPSPosition() {
-			location.href = 'unity:gps_' + marker.position.getLat() + ',' + marker.position.getLon();
+			location.href = 'unity:gps_' + marker.getPosition().getLat() + ',' + marker.getPosition().getLng();
 		}
 
 		function addMarker(position,title,id) {
