@@ -54,7 +54,7 @@
 		
 		var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
 
-     	   var parseData = JSON.parse(JSON.stringify(Params));
+     		var parseData = JSON.parse(JSON.stringify(Params));
 
 		for( var i = 0 ; i < parseData.features.length ; i++ ) {
 
@@ -71,6 +71,12 @@
 
 			addMarker(latlng,parseData.features[i].properties.STD_NAM,parseData.features[i].properties.ID);
 			
+		}
+		
+		setInterval(sendGPSPosition,2000);
+
+		function sendGPSPosition() {
+			location.href = 'unity:gps_' + marker.position.getLat() + ',' + marker.position.getLon();
 		}
 
 		function addMarker(position,title,id) {
