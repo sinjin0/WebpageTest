@@ -91,6 +91,13 @@
 				clickable: true
 			});
 			
+			setInterval(adjacencyChecking,3000);	
+				function adjacencyChecking() {
+					if( Math.abs(marker.getPosition().getLat()-position.getLat()) < 0.015 && Math.abs(marker.getPosition().getLng()-position.getLng()) < 0.015 ){
+						location.href = 'unity:adgovernor_' + id + ',' + position.getLat() + ',' + position.getLng();
+					}
+			}
+			
 			kakao.maps.event.addListener(govMarker,'click',function() {
 				document.getElementById('govName').innerHTML = "정압기 이름 : " + title;
 				document.getElementById('govInfo').innerHTML = "정압기 ID : " + id;
