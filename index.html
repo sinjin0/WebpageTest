@@ -26,7 +26,8 @@
 			<p id="govName" >정압기 이름 : </p>
 			<p id="govInfo" >정압기 ID : </p>
 			<p id="govGPS"  >정압기 GPS : </p>
-			<button id="webChange" style="width: 100; height: 30" onclick="location.href='unity:AppChange_'">AR 화면 전환</button>
+			<p><button id="webChange" style="width: 100; height: 30" onclick="location.href='unity:AppChange_'">AR 화면 전환</button></p>
+			<p><button id="GovViewChange" style="width: 100; height: 30; visibility:hidden;" >정압기 모델 </button></p>
 		</div>
 		<div class="custom_typecontrol radius_border">
 			<span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap'); location.href='unity:mapbtn';" >지도</span>
@@ -103,7 +104,12 @@
 				document.getElementById('govName').innerHTML = "정압기 이름 : " + title;
 				document.getElementById('govInfo').innerHTML = "정압기 ID : " + id;
 				document.getElementById('govGPS').innerHTML = "정압기 GPS : " + position.toString();
-				location.href = 'unity:gov_click' + id;
+				
+				var btn = document.getElementById('GovViewChange');
+				btn.style.visibility = "visible";
+				btn.addEventListener('click',function() {
+					document.getElementById('GovViewChange').onclick = location.href = 'unity:gov_cilck' + id
+				})
 			});
 
 		}
