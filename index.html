@@ -26,7 +26,7 @@
 			<p id="govName" >정압기 이름 : </p>
 			<p id="govInfo" >정압기 ID : </p>
 			<p id="govGPS"  >정압기 GPS : </p>
-			<p id="debug"  >Ver 1.4 </p>
+			<p id="debug"  >Ver 1.5 </p>
 			<p><button id="webChange" style="width: 100; height: 30" onclick="location.href='unity:AppChange_'">AR 화면 전환</button></p>
 			<p><button id="GovViewChange" style="width: 100; height: 30; visibility:hidden;" >정압기 모델 </button></p>
 			<p><button id="SurroundViewChange" style="width: 100; height: 30; visibility:hidden;" >360 뷰어 </button></p>
@@ -80,25 +80,27 @@
 		setInterval(sendGPSPosition,2000);
 		
 		function centerPosChange(id) {
-			document.getElementById('debug').innerHTML = govMarker.length + ',' + id ;		
+			document.getElementById('debug').innerHTML = govMarkerGroup.length + ',' + id ;		
 		}
 
 		function sendGPSPosition() {
 			location.href = 'unity:gps_' + marker.getPosition().getLat() + ',' + marker.getPosition().getLng();
 		}
 		
-		var govMarker = new Array();
+		var govMarkerGroup = new Array();
 		function addMarker(position,title,id) {
 			var imageSize = new kakao.maps.Size(24,35);
 			var markerImage = new kakao.maps.MarkerImage(imageSrc,imageSize);
 
-			govMarker.push(new kakao.maps.Marker({
+			var govMarker = new kakao.maps.Marker({
 				map: map,
 				position: position,
 				title: title,
 				image: markerImage,
 				clickable: true
-			}));
+			});
+			
+			govMarkerGroup.push(govMarker);
 			
 			setInterval(adjacencyChecking,3000);	
 				function adjacencyChecking() {
