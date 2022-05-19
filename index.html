@@ -26,7 +26,7 @@
 			<p id="govName" >정압기 이름 : </p>
 			<p id="govInfo" >정압기 ID : </p>
 			<p id="govGPS"  >정압기 GPS : </p>
-			<p id="debug"  >Ver 2.3</p>
+			<p id="debug"  >Ver 2.31</p>
 			<p><button id="webChange" style="width: 100; height: 30" onclick="location.href='unity:AppChange_'">AR 화면 전환</button></p>
 			<p><button id="GovViewChange" style="width: 100; height: 30; visibility:hidden;" >정압기 모델 </button></p>
 			<p><button id="SurroundViewChange" style="width: 100; height: 30; visibility:hidden;" >360 뷰어 </button></p>
@@ -82,7 +82,7 @@
 		setInterval(sendGPSPosition,2000);
 		
 		function centerPosChange(id) {
-			document.getElementById('debug').innerHTML = govMarkerGroup[id].position.toString() + ',' + id ;	
+			document.getElementById('debug').innerHTML = govMarkerGroup.lengths + ',' + id ;	
 			
 			map.setCenter(govMarkerGroup[id].getPosition());
 			map.setLevel(2);
