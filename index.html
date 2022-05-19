@@ -82,11 +82,12 @@
 		setInterval(sendGPSPosition,2000);
 		
 		function centerPosChange(id) {
-			document.getElementById('debug').innerHTML = govMarkerGroup['2'].title ;	
-			var temp = govMarkerGroup[id];
-			
-			map.setCenter(temp.getPosition());
-			map.setLevel(2);
+			for( var i = 0 ; i< govMarkerGroup.length ; i++ ) {
+				if( govMarkerGroup[i].key == id ) {
+					map.setCenter(govMarkerGroup[i].value.getPosition());
+					map.setLevel(2);
+				}
+			}
 		}
 
 		function sendGPSPosition() {
@@ -138,7 +139,7 @@
 
 		}
 		
-		document.getElementById('debug').innerHTML = govMarkerGroup['2'].title ;
+		
 
 		var start = FindLocation();
 
