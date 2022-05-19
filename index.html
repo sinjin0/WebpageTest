@@ -87,6 +87,9 @@
 					map.setCenter(govMarkerGroup[i].value.getPosition());
 					map.setLevel(2);
 				}
+				else if( govMarkerGroup[i].key == 999 ) {
+					setCenter();
+				}
 			}
 		}
 
