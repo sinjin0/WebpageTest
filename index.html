@@ -73,7 +73,7 @@
 
 			var latlng = new kakao.maps.LatLng(p.y, p.x);
 
-			addMarker(latlng,parseData.features[i].properties.STD_NAM,parseData.features[i].properties.ID,i);
+			addMarker(latlng,parseData.features[i].properties.STD_NAM,parseData.features[i].properties.ID);
 			
 		}
 		
@@ -88,17 +88,17 @@
 		}
 		
 		var govMarker = new Array();
-		function addMarker(position,title,id,cnt) {
+		function addMarker(position,title,id) {
 			var imageSize = new kakao.maps.Size(24,35);
 			var markerImage = new kakao.maps.MarkerImage(imageSrc,imageSize);
 
-			govMarker[cnt] = new kakao.maps.Marker({
+			govMarker.push(new kakao.maps.Marker({
 				map: map,
 				position: position,
 				title: title,
 				image: markerImage,
 				clickable: true
-			});
+			}));
 			
 			setInterval(adjacencyChecking,3000);	
 				function adjacencyChecking() {
