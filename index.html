@@ -26,10 +26,10 @@
 			<p id="govName" >정압기 이름 : </p>
 			<p id="govInfo" >정압기 ID : </p>
 			<p id="govGPS"  >정압기 GPS : </p>
-			<p id="debug"  >Ver 2.35</p>
+			<p id="debug"  >Ver 2.36</p>
 			<p><button id="webChange" style="width: 100; height: 30" onclick="location.href='unity:AppChange_'">AR 화면 전환</button></p>
-			<p><button id="GovViewChange" style="width: 100; height: 30; visibility:hidden;" >정압기 모델 </button></p>
-			<p><button id="SurroundViewChange" style="width: 100; height: 30; visibility:hidden;" >360 뷰어 </button></p>
+			<p><button id="GovViewChange" style="width: 100; height: 30; visibility:hidden;" onclick="modelButtonClick()" >정압기 모델 </button></p>
+			<p><button id="SurroundViewChange" style="width: 100; height: 30; visibility:hidden;" onclick="surroundViewButtonClick()" >360 뷰어 </button></p>
 		</div>
 		<div class="custom_typecontrol radius_border">
 			<span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap'); location.href='unity:mapbtn';" >지도</span>
@@ -97,6 +97,15 @@
 			location.href = 'unity:gps_' + marker.getPosition().getLat() + ',' + marker.getPosition().getLng();
 		}
 		
+		var selectMarkerID;
+		
+		function modelButtonClick() {
+			location.href = 'unity:gov_click' + selectMarkerID;	
+		}
+		
+		function surroundViewButtonClick() {
+			location.href = 'unity:surroundView_' + selectMarkerID;
+		}
 		
 		function addMarker(position,title,id) {
 			var imageSize = new kakao.maps.Size(24,35);
@@ -129,17 +138,9 @@
 				
 				var btn = document.getElementById('GovViewChange');
 				btn.style.visibility = "visible";
-				btn.removeEventListener('click');
-				btn.addEventListener('click',function() {
-					location.href = 'unity:gov_click' + id;					
-				});
 				
 				var btn2 = document.getElementById('SurroundViewChange');
 				btn2.style.visibility = "visible";
-				btn2.removeEventListener('click');
-				btn2.addEventListener('click',function() {
-					location.href = 'unity:surroundView_' + id;
-				});
 			});
 
 		}
