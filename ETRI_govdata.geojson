@@ -6,6 +6,7 @@
 	"features": [		
 		{
 			"type": "Feature",
+			"size": "Zone",
 			"properties": {
 				"FTR_IDN": "433",
 				"FTR_CDE": "SG010",
