@@ -74,7 +74,7 @@
 			"properties": {
 				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "장성삼계지구정압기",
-				"SGG_TXT": "500"
+				"SGG_TXT": "504"
 			},
 			"geometry": {
 				"type": "Point",
@@ -90,7 +90,7 @@
 			"properties": {
 				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "담양오계지구정압기",
-				"SGG_TXT": "504"
+				"SGG_TXT": "505"
 			},
 			"geometry": {
 				"type": "Point",
@@ -106,7 +106,7 @@
 			"properties": {
 				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "해남지구정압기",
-				"SGG_TXT": "505"
+				"SGG_TXT": "506"
 			},
 			"geometry": {
 				"type": "Point",
@@ -122,7 +122,7 @@
 			"properties": {
 				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "함평지구정압기",
-				"SGG_TXT": "506"
+				"SGG_TXT": "507"
 			},
 			"geometry": {
 				"type": "Point",
@@ -138,7 +138,7 @@
 			"properties": {
 				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "장흥지구정압기",
-				"SGG_TXT": "507"
+				"SGG_TXT": "508"
 			},
 			"geometry": {
 				"type": "Point",
