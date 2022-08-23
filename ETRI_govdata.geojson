@@ -8,7 +8,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin"
+				"KML_STYLE": "m_ylw-pushpin",
 				"STD_NAM": "하남지구정압기",
 				"SGG_TXT": "500"
 			},
@@ -24,7 +24,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin0"
+				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "평동지구정압기",
 				"SGG_TXT": "501"
 			},
@@ -40,7 +40,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin0"
+				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "장등지구정압기",
 				"SGG_TXT": "502"
 			},
@@ -56,7 +56,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin"
+				"KML_STYLE": "m_ylw-pushpin",
 				"STD_NAM": "나주지구정압기",
 				"SGG_TXT": "503"
 			},
@@ -72,7 +72,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin0"
+				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "장성삼계지구정압기",
 				"SGG_TXT": "500"
 			},
@@ -88,7 +88,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin0"
+				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "담양오계지구정압기",
 				"SGG_TXT": "504"
 			},
@@ -104,7 +104,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin0"
+				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "해남지구정압기",
 				"SGG_TXT": "505"
 			},
@@ -120,7 +120,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin0"
+				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "함평지구정압기",
 				"SGG_TXT": "506"
 			},
@@ -136,7 +136,7 @@
 			"type": "Feature",
 			"size": "Zone",
 			"properties": {
-				"KML_STYLE": "m_ylw-pushpin0"
+				"KML_STYLE": "m_ylw-pushpin0",
 				"STD_NAM": "장흥지구정압기",
 				"SGG_TXT": "507"
 			},
