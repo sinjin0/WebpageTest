@@ -1,8 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"name": "D:\\씨앤시티\\2차 사업\\09. 개발문서\\도시가스시설(SHP)_20220308\\UFL_GPRS_PS.geojson",
-	"activeIcon": "http://54.180.146.212/MapData/New/cncity_marker_error.png",
-	"deactiveIcon": "http://54.180.146.212/MapData/New/cncity_marker_normal.png",
+	"activeIcon": "http://54.180.146.212/MapData/MainMap/cncity_marker_error.png",
+	"deactiveIcon": "http://54.180.146.212/MapData/MainMap/cncity_marker_normal.png",
 	"features": [
 		{
 			"type": "Feature",
