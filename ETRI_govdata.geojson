@@ -1,8 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"name": "ETRI",
-	"activeIcon": "http://54.180.146.212/MapData/New/etri_marker_error.png",
-	"deactiveIcon": "http://54.180.146.212/MapData/New/etri_marker_normal.png",
+	"activeIcon": "http://54.180.146.212/MapData/MainMap/etri_marker_error.png",
+	"deactiveIcon": "http://54.180.146.212/MapData/MainMap/etri_marker_normal.png",
 	"features": [		
 		{
 			"type": "Feature",
