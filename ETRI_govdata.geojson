@@ -3,7 +3,151 @@
 	"name": "ETRI",
 	"activeIcon": "http://54.180.146.212/MapData/MainMap/etri_marker_error.png",
 	"deactiveIcon": "http://54.180.146.212/MapData/MainMap/etri_marker_normal.png",
-	"features": [		
+	"features": [	
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin",
+				"STD_NAM": "하남지구정압기",
+				"SGG_TXT": "500"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					181070.900801100360695,
+					288315.429804178653285
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin0",
+				"STD_NAM": "평동지구정압기",
+				"SGG_TXT": "501"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					179637.586810129869264,
+					280850.946171488030814
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin0",
+				"STD_NAM": "장등지구정압기",
+				"SGG_TXT": "502"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					194408.741749364242423,
+					289821.740115761524066
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin",
+				"STD_NAM": "나주지구정압기",
+				"SGG_TXT": "503"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					174242.303928858251311,
+					269439.044138060475234
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin0",
+				"STD_NAM": "장성삼계지구정압기",
+				"SGG_TXT": "504"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					171859.834677714476129,
+					297124.230045116157271
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin0",
+				"STD_NAM": "담양오계지구정압기",
+				"SGG_TXT": "505"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					199700.02081913271104,
+					300056.086437948746607
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin0",
+				"STD_NAM": "해남지구정압기",
+				"SGG_TXT": "506"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					160720.556143703608541,
+					220913.850493553152774
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin0",
+				"STD_NAM": "함평지구정압기",
+				"SGG_TXT": "507"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					159029.291396212298423,
+					270962.407379461161327
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"size": "Zone",
+			"properties": {
+				"KML_STYLE": "m_ylw-pushpin0",
+				"STD_NAM": "장흥지구정압기",
+				"SGG_TXT": "508"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					192402.962237881147303,
+					230514.82515778549714
+				]
+			}
+		}	
 			
 	]
 }
