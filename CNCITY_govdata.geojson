@@ -49,6 +49,29 @@
 					417328.947220838977955
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"FTR_IDN": "74",
+				"FTR_CDE": "SG010",
+				"MNG_CDE": "A013000",
+				"STD_NAM": "용문협신정압기",
+				"IST_YMD": "19880826",
+				"SGF_CDE": "SGF020",
+				"OUG_CDE": "OUG001",
+				"SOO_CDE": "SOO001",
+				"SGA_CDE": "SGA040",
+				"SGG_TXT": "010",
+				"ID": "101"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					235029.843259104993194,
+					415464.862978324003052
+				]
+			}
 		}
 	]
 }
